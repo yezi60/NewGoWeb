@@ -15,6 +15,7 @@ func reLanuch() {
 	if err != nil {
 		log.Fatal(err)
 	}
+	// 等待服务完成
 	err = cmd.Wait()
 }
 
